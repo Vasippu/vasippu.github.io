@@ -2,9 +2,12 @@
 <div class="row">
   <div class="col-xs-12">
       <ul class="nav nav-pills nav-stacked visible-xs-block">
-          <li role="presentation" class="active"><a href="/">Home</a></li>
-          <li role="presentation"><a href="./about.html">About Us</a></li>
-          <li role="presentation"><a href="./work.html">Our Work</a></li>
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <li role="presentation"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+
       </ul>
   </div>
 </div>
