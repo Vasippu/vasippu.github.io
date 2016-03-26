@@ -9,10 +9,8 @@
   <nav>
   <div class="col-xs-12 col-sm-6 top-nav">
     <ul class="nav nav-pills hidden-xs pull-right">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <li role="presentation"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-          {% endif %}
+        {% for link in site.navigation %}
+        <li role="presentation" class="{% if link.url == page.url %}active{% endif %} "><a href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a></li>
         {% endfor %}
     </ul>
   </div>

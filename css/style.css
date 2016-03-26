@@ -22,12 +22,12 @@ p, a, li{
     font-family: 'Alef', sans-serif;
 }
 
-h1 > a {
+h1 > a, h2 > a {
     color: #222;
     font-family: 'Amaranth', sans-serif;
 }
 
-h1 > a:hover {
+h1 > a:hover, h2 > a:hover {
     text-decoration: none;
     color: #444;
 }

@@ -1,0 +1,30 @@
+---
+layout: page
+title: Blog
+---
+  <p class="rss-subscribe pull-right"><i class="glyphicon glyphicon-fire"></i> Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+    {% for post in paginator.posts %}
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+          <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+        </h2>
+        <p>{{ post.excerpt }}</p>
+        <hr>
+      </div>
+    </div>
+    {% endfor %}
+
+<!-- Pagination links -->
+<nav>
+  <ul class="pager">
+    <li class="previous {% if paginator.previous_page == nil %}disabled{% endif %}">
+      <a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span> Newer</a>
+    </li>
+    <li class="next {% if paginator.next_page == nil %}disabled{% endif %}">
+      <a href="{{ paginator.next_page_path }}">Older <span aria-hidden="true">&rarr;</span></a>
+    </li>
+  </ul>
+</nav>
