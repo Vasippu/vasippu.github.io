@@ -1,0 +1,21 @@
+<div class="row">
+  <header>
+    <div class="col-xs-12 col-sm-6">
+      <div class="page-header">
+        <h1> <a href="{{ site.baseurl }}/">Vasippu</a></h1>
+      </div>
+    </div>
+  </header>
+  <nav>
+  <div class="col-xs-12 col-sm-6 top-nav">
+    <ul class="nav nav-pills hidden-xs pull-right">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <li role="presentation"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+    </ul>
+  </div>
+  </nav>
+</div>
+

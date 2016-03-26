@@ -22,6 +22,16 @@ p, a, li{
     font-family: 'Alef', sans-serif;
 }
 
+h1 > a {
+    color: #222;
+    font-family: 'Amaranth', sans-serif;
+}
+
+h1 > a:hover {
+    text-decoration: none;
+    color: #444;
+}
+
 .page-header{
     border-bottom: 0;
 }
