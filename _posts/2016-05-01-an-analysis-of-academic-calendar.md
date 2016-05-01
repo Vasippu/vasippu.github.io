@@ -2,6 +2,7 @@
 layout: post
 title: An Analysis of Academic Calendar
 description: An analysis of the Academic Calendar that would be followed in the classrooms which Vasippu supports
+published: false
 ---
 
 The academic calendar forms the basis of what can be done inside a classroom in a year. It imposes the most important constraint of all - Time. It sets the limits to which resources need to pooled and used. It gives us the framework to plan our activities and engagements. Analysing this before the start of the academic year gives an idea of what awaits us and prepare ourselves to get the maxiumum out of the year.
