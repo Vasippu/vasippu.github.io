@@ -2,7 +2,6 @@
 layout: post
 title: An Analysis of Academic Calendar
 description: An analysis of the Academic Calendar that would be followed in the classrooms which Vasippu supports
-published: false
 ---
 
 The academic calendar forms the basis of what can be done inside a classroom in a year. It imposes the most important constraint of all - Time. It sets the limits to which resources need to pooled and used. It gives us the framework to plan our activities and engagements. Analysing this before the start of the academic year gives an idea of what awaits us and prepare ourselves to get the maxiumum out of the year.
@@ -30,4 +29,15 @@ We can hear you asking that question. Here are some points to help you read the 
 ## Learnings from the Analysis
 
 
+## Resources
 
+You can download the Academic Calendar with all the above information as an Excel sheet to help you plan by clicking the buttons below.
+
+<div class="row">
+    <div class="col-md-4 col-md-offset-2">
+        <a class="btn btn-primary" href="/assets/Academic_Year_2016-17.xls">Download Academic Calendar</a>
+    </div>
+    <div class="col-md-6">
+        <a class="btn btn-primary" href="/assets/2016_17_Term1_template.xlsx">Download Term 1 planning template</a>
+    </div>
+</div>
