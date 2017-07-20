@@ -10,7 +10,7 @@ We are former Teach For India Fellows. After teaching full time for two years in
 
 ## What do we do?
 
-Vasippu runs an equalizer program for first generation learners. We are present in two schools - CHS New Market Farm, New Washermenpet and ECI Matriculation Higher Secondary School, Tondiarpet. We impact 160 7th standard students in four classrooms.
+Vasippu runs an equalizer program for first generation learners. We are present in three schools - CHS New Market Farm, New Washermenpet, ECI Matriculation Higher Secondary School, Tondiarpet and CHS CB Road, Korukkupet. We impact 156 8th standard students and 64 sixth standard students in six classrooms.
 
 Our students are first generation learners from low income communities. For competing with their peers from more affluent backgrounds they need massive amount of resources - time, money, adult role models, in-school and out-of-school additional tutoring and exposure opportunities. We help the teachers of our students by providing technical and logistical assistance inside and outside the classroom. We aim to be the equalizing factor that levels the playing field for our children.
 
